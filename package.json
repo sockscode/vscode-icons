@@ -190,6 +190,7 @@
         }
     },
     "scripts": {
+        "pinstall": "node ./node_modules/vscode/bin/install",
         "prebuild": "npm run lint && npm run test",
         "build": "node ./out/src/icon-manifest/build.js",
         "pretest": "rimraf ./.nyc_output ./coverage && npm run compile",
